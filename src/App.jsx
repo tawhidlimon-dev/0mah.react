@@ -1,6 +1,8 @@
 
 import Navbar from "./section/navbar/Navbar"
 import Banner from "./section/banner/Banner"
+import About from "./section/about/About"
+
 function App() {
   
     return (
@@ -8,6 +10,8 @@ function App() {
       <Navbar/>
 
       <Banner/>
+
+      <About/>
       </>
     ) 
 }
