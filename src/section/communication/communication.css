@@ -1,0 +1,122 @@
+#communication{
+  background-color: #EEEDDE;
+  padding: 48px 0;
+}
+.communication_wrapper{
+  display: flex;
+  column-gap: 117px;
+}
+.communication_contuct{
+  width: 650px;
+}
+.communication_logo{
+  width: 400px;
+}
+.call_email_wrapper{
+  margin-top: 63px;
+  display: flex;
+  column-gap: 50px;
+}
+.call_wrapper{
+  width: 243px;
+  height: 178px;
+  border-radius: 10px;
+  border: 1px solid rgba(255, 117, 39, 0.50);
+  padding: 24px 24px;
+}
+.call_wrapper .wrapper{
+  display: flex; 
+}
+.call_wrapper .wrapper .call_logo{
+  width: 48px;
+  height: 48px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.call_wrapper i{
+  width: 48px;
+  height: 48px;
+  color: #203239;
+  margin-top: 50%;
+}
+.call_wrapper .wrapper .call span{
+  color: #203239;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: normal;
+}
+.call_wrapper .wrapper .call h6{
+  margin-bottom: 8px;
+}
+.call_wrapper a{
+  color: #FF7527;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: normal;
+  padding: 13px 41px;
+  border-radius: 10px;
+  background: rgba(255, 117, 39, 0.20);
+
+}
+.call_wrapper .call_now{
+  display: flex;
+  justify-content: center;
+  margin-top: 24px;
+}
+.email_box{
+  width: 306px;
+  height: 178px;
+  border: 1px solid rgba(255, 117, 39, 0.50);
+  padding: 24px 24px;
+}
+.email_box .email_wrapper{
+  display: flex;
+}
+.email_box .email_btn{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 24px;
+}
+.email_box .email_btn a{
+  color: #FF7527;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: normal;
+  padding: 13px 41px;
+  border-radius: 10px;
+  background: rgba(255, 117, 39, 0.20);
+}
+.email_box .email_wrapper .email_icon{
+  width: 48px;
+  height: 48px;
+  display: flex;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+}
+.email_box .email_wrapper .email_icon i{
+  width: 48px;
+  height: 48px;
+  margin-top: 50%;
+}
+.email_box .email_wrapper .email_address h6{
+  margin-bottom: 8px;
+}
+.email_box .email_wrapper .email_address span{
+  color: #203239;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: normal;
+}
+.communication_logo h2{
+  margin-left: 20px;
+}
+.communication_logo .communication_logo_wrapper{
+  display: flex;
+  align-items: center;
+  margin: 39px 0 98px 0;
+  column-gap: 32px;
+}

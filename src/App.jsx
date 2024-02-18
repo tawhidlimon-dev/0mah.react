@@ -4,6 +4,7 @@ import Banner from "./section/banner/Banner"
 import About from "./section/about/About"
 import Faborit from "./section/faborit/Faborit"
 import Auditor from "./section/auditor/Auditor"
+import Communication from "./section/communication/Communication"
 
 function App() {
   
@@ -18,6 +19,8 @@ function App() {
       <Faborit/>
 
       <Auditor/>
+
+      <Communication/>
       </>
     ) 
 }
