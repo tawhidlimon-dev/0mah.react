@@ -1,0 +1,39 @@
+/* ======Common code start====== */
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+  }
+ol,ul{
+    list-style-type: none;
+  }
+
+a{
+    text-decoration: none;
+  }
+h1,h2,h3,h4,h5,h6,p{
+  line-height: 0.8;
+}
+.container{
+  width: 1170px;
+  margin: 0 auto;
+}
+.common_paragraph{
+  color: rgba(32, 50, 57, 0.55);
+  font-size: 16px;
+  font-weight: 300px;
+  line-height: 30px;
+  align-items: center;
+}
+.heading{
+  font-size: 36px;
+  font-weight: 600;
+  line-height: 150%;
+}
+.sub_heading{
+  font-size: 16px;
+  font-weight: 500;
+  line-height: normal;
+}
+/* ======Common code end====== */
