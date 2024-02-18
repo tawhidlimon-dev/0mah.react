@@ -1,0 +1,16 @@
+#footer{
+  background: #203239;
+  padding: 31px 0;
+}
+.footer_wrapper{
+  display: flex;
+  align-items: center;
+  justify-content:space-between;
+}
+.footer_wrapper .footer_item{
+  display: flex;
+  column-gap: 64px;
+}
+.footer_wrapper .footer_item a{
+  color: #fff;
+}

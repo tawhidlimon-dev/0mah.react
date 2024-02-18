@@ -5,6 +5,7 @@ import About from "./section/about/About"
 import Faborit from "./section/faborit/Faborit"
 import Auditor from "./section/auditor/Auditor"
 import Communication from "./section/communication/Communication"
+import Footer from "./section/footer/Footer"
 
 function App() {
   
@@ -21,6 +22,8 @@ function App() {
       <Auditor/>
 
       <Communication/>
+
+      <Footer/>
       </>
     ) 
 }
