@@ -54,7 +54,6 @@
 .favorit_content_btn .btn_item i{
   position: absolute;
   left: 41px;
-  
 }
 .favorit_content_btn .btn_item a{
   color: #203239;
@@ -64,4 +63,7 @@
   padding: 13px 41px 13px 41px;
   border-radius: 10px;
   border: 1px solid #203239;
+}
+.favorit_content_btn .btn_item a svg{
+  margin-right: 2px;
 }

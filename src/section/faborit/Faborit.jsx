@@ -2,6 +2,7 @@ import React from 'react'
 import './faborit.css'
 import FaboritImgOne from '../../assets/images/favorit_image01.jpg'
 import FaboritImgTwo from '../../assets/images/favorit_image02.jpg'
+import { FaPhoneAlt } from "react-icons/fa";
 
 const Faborit = () => {
   return (
@@ -26,10 +27,8 @@ const Faborit = () => {
             <h2 className="heading">Bangunan yang dirancang oleh Aristektur Handal</h2>
             <p className="common_paragraph">Tanpa diragukan, properti yang disediakan dalam webiste kami merupakan hasil kerjasama secara profesional dengan para Arsitektur ternama dan Developer yang terpercaya.</p>
             <div className="favorit_content_btn">
-              <div className="btn_item">
-                <i className="fa-solid fa-phone"></i>
-                <a href="#">Hubungi Kami
-                </a>
+              <div className="btn_item"> 
+                <a href="#"> < FaPhoneAlt /> Hubungi Kami</a>
               </div>
               <div className="btn_item">
                 <a href="#">Explore lebih banyak</a>

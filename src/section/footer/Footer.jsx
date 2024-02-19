@@ -1,6 +1,10 @@
 import React from 'react'
 import './footer.css'
 import Image from '../../assets/images/footer_logo.png'
+import { FaInstagram } from "react-icons/fa";
+import { FaFacebookF } from "react-icons/fa6";
+import { FaTwitter } from "react-icons/fa6";
+import { FaLinkedinIn } from "react-icons/fa";
 
 const Footer = () => {
   return (
@@ -15,10 +19,10 @@ const Footer = () => {
           </a>
         </div>
         <div className="footer_item">
-          <a href="#"><i className="fa-brands fa-instagram"></i></a>
-          <a href="#"><i className="fa-brands fa-facebook-f"></i></a>
-          <a href="#"><i className="fa-brands fa-twitter"></i></a>
-          <a href="#"><i className="fa-brands fa-linkedin-in"></i></a>
+          <a href="#"><FaInstagram /></a>
+          <a href="#"><FaFacebookF /></a>
+          <a href="#"><FaTwitter /></a>
+          <a href="#"><FaLinkedinIn /></a>
         </div>
       </div>
     </div>
